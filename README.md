@@ -33,3 +33,10 @@ token = "VIVslV7WE-3ynIKh95WnR3t3SsAltTM1wUh8rnv6beCuBfOMkKp1UYAu082bYF72Sc8is8R
 org = "temp"
 url = "http://localhost:8086"
 bucket = "bulk_data"
+
+## Running the Application
+
+To run the application, execute the following command:
+
+python app.py
+
