@@ -42,3 +42,35 @@ To run the application, execute the following command:
 python app.py
 ```
 
+## API Endpoint
+
+Access the following API endpoint once the application is running:
+
+GET http://127.0.0.1:5000/api/bulk-data
+
+Example Response
+
+```python
+[
+    {
+        "location": "Prague",
+        "temperature": 0
+    },
+    {
+        "location": "Prague",
+        "temperature": 1
+    },
+    {
+        "location": "Prague",
+        "temperature": 2
+    },
+    {
+        "location": "Prague",
+        "temperature": 3
+    },
+    {
+        "location": "Prague",
+        "temperature": 4
+    }
+]
+```
